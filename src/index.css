@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+*{
+
+  font-family: "Roboto";
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
