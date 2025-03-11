@@ -8,11 +8,11 @@ import { FaFacebook } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <div className="bg-slate-950 mt-[72px] w-full h-[100vh] 
+    <div className="bg-slate-950 mt-[72px] w-full h-screen 
     lg:flex lg:pr-5 xl:justify-between ">
 
       <section className="lg:ml-16  lg:mt-10">
-
+    
           <div className="">
 
                 <motion.h1 className="text-white text-center mt-10 text-4xl mb-5
