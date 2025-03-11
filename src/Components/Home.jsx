@@ -5,6 +5,8 @@ import { FaWhatsapp } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
+import { FaAngleDoubleDown } from "react-icons/fa";
+
 
 const Home = () => {
   return (
@@ -44,7 +46,7 @@ const Home = () => {
             ]}
               loop={true}
               cursor
-              cursorStyle=""
+              cursorStyle="|"
               typeSpeed={90}
               deleteSpeed={100}
               delaySpeed={1000}
@@ -62,6 +64,9 @@ const Home = () => {
                   hover:animate-pulse" >
                     <a href="./resme.pdf"> Download Cv </a>
                 </button>
+                <FaAngleDoubleDown  className="text-7xl ml-[530px] mt-10 animate-bounce 
+                duration-300 cursor-pointer xl:block 2xl:hidden hidden text-white"/>
+                
             </div>
       </section>
       <section>
