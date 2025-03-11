@@ -19,7 +19,7 @@ const Header = () => {
         </div>
         <div className="flex items-center gap-2  ">
             <button
-            className="bg-white text-black px-4  hover:bg-transparent hover:text-white
+            className=" text-white px-4  hover:bg-transparent hover:border-red-500 hover:animate-pulse
             border-1 duration-500">
             <a href="mailto:muhammadfahadkamboh3@gamil.com">Email</a></button>
             <MdDarkMode className="text-2xl
